@@ -9,6 +9,7 @@ import WatchPage from './components/WatchPage';
 import Demo from "./components/Demo"
 const appRouter = createBrowserRouter([
 {
+  
   path:'/',
   element:<Body/>,
   children:[
