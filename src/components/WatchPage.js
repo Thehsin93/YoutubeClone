@@ -11,11 +11,10 @@ const WatchPage = ()=>{
         dispatch(closeMenu());
     },[]);
  
-    return <div className="flex flex-col w-screen"><div className="p-2 m-2 flex">
-        <div>
-         <iframe
-            width="1000"
-            height="600"
+    return <div className="flex flex-col col-span-11"><div className="p-2 m-2 flex justify-between">
+        <div className="w-[65%]">
+         <iframe className="w-[100%] h-[450px]"
+           
             src={"https://www.youtube.com/embed/" + searchparams.get("v")+"?&autoplay=1&mute=1"}
             title="YouTube video player"
             frameBorder="0"
@@ -23,7 +22,7 @@ const WatchPage = ()=>{
             allowFullScreen
           ></iframe>
           </div>
-          <div className="w-screen">
+          <div className="col-span-6">
             <LiveChat/>
           </div>
         

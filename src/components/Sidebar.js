@@ -4,7 +4,7 @@ import SideBarMain from "./SideBarMain";
 const Sidebar = ()=>{
     const isMenu = useSelector((store)=>store.app.isMenuOpen);
     if(isMenu) return <SideBarMain/>;
-    return <div className="">
+    return <div className="col-span-1">
     <div className="grid grid-flow-row m-2 p-2 ">
    
         
