@@ -37,7 +37,7 @@ const LiveChat = ()=>{
         setNewmsg('');
         }}>
             <input type="text" value={newmsg} onChange={(e)=>setNewmsg(e.target.value)} className="w-96"></input>
-            <button className="px-2 mx-2 bg-gray-400 rounded-xl">Enter</button>
+            
     </form>
     </>
 };

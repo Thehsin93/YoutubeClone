@@ -2,44 +2,44 @@ import Comment from "./Comment"
 const CommentsContainer = ()=>{
     const commentsData = [
         {
-          name: "Akshay Saini",
+          name: "Thehsin",
           text: "Lorem ipsum dolor sit amet, consectetur adip",
           replies: [],
         },
         {
-          name: "Akshay Saini",
+          name: "Adam",
           text: "Lorem ipsum dolor sit amet, consectetur adip",
           replies: [
             {
-              name: "Akshay Saini",
+              name: "Shaik",
               text: "Lorem ipsum dolor sit amet, consectetur adip",
               replies: [],
             },
             {
-              name: "Akshay Saini",
+              name: "Allen",
               text: "Lorem ipsum dolor sit amet, consectetur adip",
               replies: [
                 {
-                  name: "Akshay Saini",
+                  name: "Roshan",
                   text: "Lorem ipsum dolor sit amet, consectetur adip",
                   replies: [
                     {
-                      name: "Akshay Saini",
+                      name: "Akshay",
                       text: "Lorem ipsum dolor sit amet, consectetur adip",
                       replies: [
                         {
-                          name: "Akshay Saini",
+                          name: "Thehsin",
                           text: "Lorem ipsum dolor sit amet, consectetur adip",
                           replies: [
                             {
-                              name: "Akshay Saini",
+                              name: "Rabiya",
                               text: "Lorem ipsum dolor sit amet, consectetur adip",
                               replies: [],
                             },
                           ],
                         },
                         {
-                          name: "Akshay Saini",
+                          name: "Jaleel",
                           text: "Lorem ipsum dolor sit amet, consectetur adip",
                           replies: [],
                         },
@@ -52,22 +52,22 @@ const CommentsContainer = ()=>{
           ],
         },
         {
-          name: "Akshay Saini",
+          name: "Akshay",
           text: "Lorem ipsum dolor sit amet, consectetur adip",
           replies: [],
         },
         {
-          name: "Akshay Saini",
+          name: "Allen",
           text: "Lorem ipsum dolor sit amet, consectetur adip",
           replies: [],
         },
         {
-          name: "Akshay Saini",
+          name: "Rohaan",
           text: "Lorem ipsum dolor sit amet, consectetur adip",
           replies: [],
         },
         {
-          name: "Akshay Saini",
+          name: "Jaleel",
           text: "Lorem ipsum dolor sit amet, consectetur adip",
           replies: [],
         },
